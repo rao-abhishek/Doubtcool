@@ -1,0 +1,76 @@
+ .top_line
+{
+    
+    
+     
+    width: 100%;
+     line-height: 1.5; 
+    color:#0CB566;
+    font-family:"Segoe UI";
+    font-size:30px;
+     text-align: center;
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+.create_account {
+     
+  width: 100%;
+     line-height: 1.5; 
+    color:#2565E3;
+    font-family:"Segoe UI";
+    font-size:30px;
+     text-align: center;
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+#border_line {
+     width: 100%;
+    float: left;
+    border-bottom: 2px solid #49D07F;
+    box-shadow: 0px;
+}
+
+.input_field {
+    width: 100%;
+text-align: center;
+    margin-top: 50px;
+}
+
+.child_input_field {
+    margin-top:20px;
+    font-family:"Segoe UI";
+    font-size: 20px;
+}
+
+input{
+    padding: 5px;
+    font-size: 17px;
+    outline: none;
+    border: 1px solid rgba(124, 123, 123, 0.67);
+     box-shadow: 1px 2px 2px #d1d1d1 ;
+    
+}
+
+#submit {
+    margin-top: 30px;
+     font-weight: 700;
+    font-size:18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right:40px;
+    padding-left:40px;
+    font-family: "Segoe UI";
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.29);
+    border-radius: 30px;
+    color:  #0CB566;
+    outline: none;
+
+}

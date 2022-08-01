@@ -1,0 +1,282 @@
+
+p1 {
+    padding-right: 10px;
+    float: left;
+     line-height: 1.5; 
+    color:#0CB566;
+    font-family:"Segoe UI";
+    font-size:30px;
+     text-align: center;
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.top_search_bar {
+    width:85%;
+    float:right;
+    background-color:white;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+   
+}
+
+#search_bar{
+    margin-top: 3px;
+     border: solid 1px rgba(112, 112, 112, 0.66);
+     width: 70%;
+    padding-left: 3%;
+    height: 38px;
+    font-size: 15px;
+    float:left;
+    border-radius: 50px;
+    outline:none;
+    
+    
+ 
+}
+#search_bar:hover {
+    
+    border: solid 0px white; 
+
+    padding-left: 3%;
+    height: 38px;
+    font-size: 15px;
+    border-radius: 50px;
+  box-shadow: 1px 1px 5px rgba(112, 112, 112, 0.66);
+
+}
+#search_icon { 
+float:left;
+  border-radius: 100px;
+  padding: 6px 10px;
+  margin-top: 5px;
+ // padding-left: 10px;
+  margin-left: 1%;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+
+}
+body {
+    margin-top: 0px;
+    min-width: 800px;
+    outline: none;
+        
+}
+
+
+
+::placeholder {
+  color:rgba(104,104,104,0.55) ;
+    font-family: "Segoe UI";
+  user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+
+
+
+
+
+#profile_clicks{
+    margin-left: 0px;
+    margin-right: 0px;
+    cursor: pointer;
+    text-align: inherit;
+    border:solid 1px rgba(0, 18, 255, 0.74);
+    background-color: rgba(0, 18, 255, 0.74);
+    color: white;
+    font-family: "Segoe UI";
+    font-size: 15px;
+    border-radius: 30px;
+    padding:5px 15px;
+    outline:none;
+}
+#profile_clicks:hover{
+    
+    margin-left: 0px;
+    margin-right: 0px;
+    cursor: pointer;
+    text-align: inherit;
+    border:solid 1.7px rgba(0, 18, 255, 0.74);
+    background-color: white;
+    color:rgba(0, 18, 255, 0.74) ;
+    font-family: "Segoe UI";
+    font-size: 15px;
+    border-radius: 30px;
+    padding:5px 15px;
+   
+}
+
+
+.user_list {
+    height:100%;
+    margin-left:0px;
+    width:14%;
+    float: left;
+    text-align: center;
+    border-right: solid 2px #bfbfbf;
+    box-shadow: 1px 0px 10px #dedede;
+}
+
+#bio_pic {
+    
+    border: solid 1px rgba(157, 157, 157, 0.74);
+    border-radius: 35px;
+    margin-top: 20px;
+    
+}
+
+#name {
+    margin-top:1px;
+    font-family: "Segoe UI";
+}
+
+.teacher_list {
+    
+    height: 350px;
+    
+}
+
+.head_type {
+    line-height: 70px;
+  //  padding-left: 32%;
+//    padding-right:33%;
+    
+   
+    width:100%;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    box-sizing: border-box;
+    font-family: pacifico;
+    font-size:40px;
+    color:#6DE12A;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    outline :none;
+    
+     user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+
+}
+
+
+#head_type {
+    line-height: 70px;
+ //   padding-left: 32%;
+//    padding-right:31%;
+    
+   
+    width:;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    box-sizing: border-box;
+    font-family: pacifico;
+    font-size:38px;
+    color:#6DE12A;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    outline :none;
+    
+     user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+button{
+   
+   border-radius: 100px;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+  user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */  
+    
+    
+}
+
+.upload_clicks 
+{
+    float: left;
+    width : 80%;
+    font-family: 'Segoe UI';
+    padding-left: 35px;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+ 
+}
+
+#filter {
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right:20px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    font-size:20px;
+    float:right;
+    background-color: white;
+    color:rgba(22, 118, 248, 0.85);
+    font-weight: bolder;
+}
+
+#filter:hover{
+    
+    background-color: rgba(216, 209, 229, 0.42);
+   
+}
+
+#question {
+    
+  
+    text-decoration: none;
+    font-size: 20px;
+    color:red;
+    font-family: 'segoe UI';
+    font-weight: 500;
+    outline: none;
+    padding: 10px;
+   
+}
+
+
+
+
+#answer {
+   
+   text-decoration: none;
+    font-size: 20px;
+    color:#28c328;
+    font-family: 'segoe UI';
+    font-weight: 500;
+    outline: none;
+    padding: 10px; 
+}
+
+

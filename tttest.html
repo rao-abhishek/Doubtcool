@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My title</title>
+</head>
+<body>
+
+<p>Click the button to change the title of the document.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+{
+  document.title = "Some new title text";
+  document.getElementById("demo").innerHTML = "The title of the document was changed from 'My title' to 'some new title text'. View Source to see the effect.";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1347 @@
+.full_body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#parent_top_bar 
+{
+    
+    transition: top 0.3s;
+    position: fixed;
+    display: block;
+    width: 70%;
+}
+
+.user_list {
+    min-width:150px;
+    background-color: white;
+    position:fixed;
+    z-index: 2;
+    height:100%;
+    margin-top: 0px;
+    margin-left:0px;
+    width:14%;
+    float: left;
+    text-align: center;
+    border-right: solid 2px #bfbfbf;
+   // box-shadow: 1px 0px 10px #dedede;
+}
+#profile_clicks{
+    margin-left: 0px;
+    margin-right: 0px;
+    cursor: pointer;
+    text-align: inherit;
+    border:solid 1px rgba(0, 18, 255, 0.74);
+    background-color: rgba(0, 18, 255, 0.74);
+    color: white;
+    font-family: "Segoe UI";
+    font-size: 15px;
+    border-radius: 30px;
+    padding:5px 15px;
+    outline:none;
+}
+#bio_pic {
+    
+    border: solid 1px rgba(157, 157, 157, 0.74);
+    border-radius: 35px;
+    margin-top: 20px;
+    
+}
+.teacher_list {
+    
+    height: 300px;
+    
+}
+.head_type {
+    line-height: 70px;
+  //  padding-left: 32%;
+//    padding-right:33%;
+    
+   
+    width:100%;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    box-sizing: border-box;
+    font-family: pacifico;
+    font-size:40px;
+    color:#6DE12A;
+  //  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    outline :none;
+    
+     user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+
+}
+#head_type {
+    line-height: 70px;
+ //   padding-left: 32%;
+//    padding-right:31%;
+    
+   
+    width:;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    box-sizing: border-box;
+    font-family: pacifico;
+    font-size:38px;
+    color:#6DE12A;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    outline :none;
+    
+     user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+#profile_clicks:hover{
+    
+    margin-left: 0px;
+    margin-right: 0px;
+    cursor: pointer;
+    text-align: inherit;
+    border:solid 1.7px rgba(0, 18, 255, 0.74);
+    background-color: white;
+    color:rgba(0, 18, 255, 0.74) ;
+    font-family: "Segoe UI";
+    font-size: 15px;
+    border-radius: 30px;
+    padding:5px 15px;
+   
+}
+
+#name{
+    font-family: "Segoe UI";
+}
+
+.top_search_bar {
+  //   filter: blur(10px);
+    z-index:1;
+    margin-left: 14%;
+    position: fixed;
+    margin-right: 14%;
+    width:70%;
+    float:left;
+    background-color:white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  //  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+}
+p1 { padding-right: 25px;
+     padding-left: 25px;
+    float: left;
+     line-height: 1.5; 
+    color:#0CB566;
+    font-family:"Segoe UI";
+    font-size:30px;
+     text-align: center;
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+#search_bar{
+    font-family: "Segoe UI";
+    margin-top: 3px;
+     border: solid 1px rgba(112, 112, 112, 0.66);
+     width: 70%;
+    padding-left: 3%;
+    height: 38px;
+    font-size: 15px;
+    float:left;
+    border-radius: 50px;
+    outline:none;
+    
+    
+ 
+}
+
+
+
+#search_bar:hover {
+    
+    border: solid 0px white; 
+
+    padding-left: 3%;
+    height: 38px;
+    font-size: 15px;
+    border-radius: 50px;
+  box-shadow: 1px 1px 5px rgba(112, 112, 112, 0.66);
+
+}
+
+#search_bar:focus {
+    
+    border: solid 0px white; 
+
+    padding-left: 3%;
+    height: 38px;
+    font-size: 15px;
+    border-radius: 50px;
+  box-shadow: 1px 1px 5px rgba(112, 112, 112, 0.66);
+
+}
+#search_icon { 
+float:left;
+  border-radius: 100px;
+  padding: 6px 10px;
+  margin-top: 5px;
+ padding-left: 10px;
+  margin-left: 1%;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+
+}
+#hide_it {
+    visibility: hidden;
+}
+.data_col {
+    margin-top: 130px;
+    margin-left: 17%;
+    width:83%;
+    float: left;
+}
+
+.qna_box {
+    
+       border-bottom:1px solid rgba(112, 112, 112, 0.35);
+    margin-bottom: 10px;
+    
+    float: left;
+    width:100%;
+    background-color: transparent;
+    border:1px solid rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16);
+}
+
+.qna_name {
+       float: left;
+    color:rgba(8, 6, 53, 0.86);
+    margin-left:15px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-family: "segoe UI";
+    font-size:20px;
+}
+
+.q_date {
+    font-weight: 500;
+    font-size:13px;
+    color: rgba(8, 6, 53, 0.35);
+    font-style: italic;
+    font-family: "segoe UI";
+    margin-top: 13px;
+    margin-left: 14px;
+    float:left;
+}
+
+.q_subject {
+       font-style: italic;
+    float: right;
+    margin-right: 10px;
+    font-size:14px;
+     margin-top: 6px;
+}
+
+.border_line {
+    
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.25);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.16);
+}
+
+.qna_body {
+    background-color: transparent; 
+   margin-top:30px;
+  // text-align: left;
+ //   float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 17px;
+    font-family: "segoe UI";
+    font-weight: 600;
+     padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.ans_count {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    color: #080635;
+    float: left;
+    margin-top:0px;
+    margin-right:25px;
+    font-family: "segoe UI thin";
+    font-size: 17px;
+    font-style: italic;
+}
+
+#border_line {
+     width: 100%;
+    float: left;
+    border-bottom: 1px solid #49D07F;
+    box-shadow: 0px;
+}
+
+#giveown {
+    display: inline-block;
+    width:100%;
+    background-color: white;
+    color:#0CB566;
+    font-family:"Segoe UI";
+    font-size:30px;
+    //float: left;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#tagline {
+    width:100%;
+    display: inline-block;
+    margin-top:0px;
+    text-align: center;
+    font-family: "Segoe UI";
+    font-weight: 500;
+    font-size: 15px;
+    color:rgba(104, 104, 104, 0.71);
+}
+
+.text_box {
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+#text_place {
+  font-family: "Segoe UI";
+  width: 60%;
+  text-align: left;
+  height:  200px;
+    min-height: 200px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 25px;
+  background-color: white;
+  font-size: 16px;
+  box-shadow: 2px 2px 10px rgba(67, 66, 66, 0.35);
+  outline: none;
+}
+
+#submit {
+    font-weight: 700;
+    font-size:18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right:40px;
+    padding-left:40px;
+    font-family: "Segoe UI";
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.29);
+    color:  #0CB566;
+
+}
+
+button{
+   
+   border-radius: 100px;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+  user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */  
+    
+    
+}
+
+#submit:active{
+    
+    box-shadow: none;
+}
+
+#submit:hover{
+    
+    color:white;
+    background-color:rgba(12, 181, 102, 0.87);
+    
+    
+}
+
+#camera {
+    font-size: 20px;
+    font-family:"Segoe UI";
+    color:#0CB566;
+   // display: inline-block;
+    //float: left;
+
+}
+#icamera {
+   
+    font-size: 30px;
+    color:#0CB566;
+
+}
+
+
+#cam_link:hover {
+    
+    cursor: pointer;
+border-bottom: 1px solid #0CB566;
+   // color:#0CB566;
+
+}
+
+
+input[type=checkbox] {
+  display: none;
+}
+
+.image:hover img:hover {
+    
+    border:1px solid #0CB566;
+    border-radius: 10px;
+    margin: 10px;
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+.image img {
+    
+    
+    border-radius: 10px;
+    margin: 10px;
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(3);
+  cursor: zoom-out;
+}
+
+
+
+#shownhide {
+    display: none;
+}
+
+
+
+.a_image img{
+    border:1px solid #0CB566;
+    border-radius: 12px;
+   // width:200px;
+    display: inline-block;
+    text-align: center;
+}
+
+#id01 {
+      text-align: center;
+}
+
+.upload_clicks {
+    
+    z-index: 1;
+    background-color: white;
+    margin-top: 86px;
+    float: left;
+    width : 86%;
+    font-family: 'Segoe UI';
+    padding-left: 35px;
+   border-bottom: 3px solid rgba(0, 0, 0, 0.26);
+   position: fixed;
+    margin-left: 14%;
+ 
+
+}
+
+
+    #login {
+  visibility: hidden;
+   background-color: white;
+     color:#0CB566;
+        float: left;
+  
+}
+
+
+#remove {
+    text-align: center;
+    display: none;
+    color:red;
+    background-color: white;
+    
+}
+
+#remove2 {
+    align-content: center;
+}
+
+
+
+#rate {
+     float:right;
+    color:white;
+    padding-top: 5px;
+    border-radius: 100px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-family: "segoe UI";
+    font-weight: 700;
+    background-color: #FECE00;
+    border-color:rgba(200, 236, 26, 0.72);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.21);
+}
+
+#rate_type {
+     margin-right: 100px;
+    float: left;
+    font-family:"Segoe UI";
+    font-weight: 600;
+    font-size: 17px;
+    font-style:italic;
+    margin-left:20px;
+    margin-top: 20px;
+   // background-color: aqua;
+}
+
+#parent_rating_box {
+    display: block;
+}
+
+
+fieldset, label { margin: 0; padding: 0; }
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    outline: none;
+       
+}
+
+h1 { font-size: 1.5em; margin: 10px; }
+
+/****** Style Star Rating Widget *****/
+
+.p_rating { 
+    
+    margin-right: 30px;
+    margin-top:15px;
+  margin-left: -100px;
+  border: none;
+  float: left;
+}
+
+.p_rating > input { display: none; } 
+.p_rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.p_rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.p_rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.p_rating > input:checked ~ label, /* show gold star when clicked */
+.p_rating:not(:checked) > label:hover, /* hover current star */
+.p_rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.p_rating > input:checked + label:hover, /* hover current star when changing rating */
+.p_rating > input:checked ~ label:hover,
+.p_rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.p_rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+
+.t_rating { 
+    margin-right: 30px;
+    margin-top:15px;
+  margin-left: -100px;
+  border: none;
+  float: left;
+}
+
+.t_rating > input { display: none; } 
+.t_rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.t_rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.t_rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.t_rating > input:checked ~ label, /* show gold star when clicked */
+.t_rating:not(:checked) > label:hover, /* hover current star */
+.t_rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.t_rating > input:checked + label:hover, /* hover current star when changing rating */
+.t_rating > input:checked ~ label:hover,
+.t_rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.t_rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+.l_rating { 
+    margin-right: 30px;
+    margin-top:15px;
+  margin-left: -100px;
+  border: none;
+  float: left;
+}
+
+.l_rating > input { display: none; } 
+.l_rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.l_rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.l_rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.l_rating > input:checked ~ label, /* show gold star when clicked */
+.l_rating:not(:checked) > label:hover, /* hover current star */
+.l_rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.l_rating > input:checked + label:hover, /* hover current star when changing rating */
+.l_rating > input:checked ~ label:hover,
+.l_rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.l_rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+.m_rating { 
+    margin-right: 30px;
+    margin-top:15px;
+  margin-left: -100px;
+  border: none;
+  float: left;
+}
+
+.m_rating > input { display: none; } 
+.m_rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.m_rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.m_rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.m_rating > input:checked ~ label, /* show gold star when clicked */
+.m_rating:not(:checked) > label:hover, /* hover current star */
+.m_rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.m_rating > input:checked + label:hover, /* hover current star when changing rating */
+.m_rating > input:checked ~ label:hover,
+.m_rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.m_rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+
+.top_bar
+{
+    display: none;
+}
+
+
+@media screen and (min-width:800px ) and (max-width:1240px)
+{
+    .full_body {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#parent_top_bar 
+{
+    
+    transition: top 0.3s;
+    position: fixed;
+    display: block;
+    width: 71%;
+}
+
+    a:active , button:active
+    {
+        
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        
+    }
+    
+    .user_list
+    {
+        display: none;
+    }
+    
+    .top_search_bar,#search_bar{
+      
+        margin-top:0px;
+        
+        float: left;
+        margin-left: 0%;
+        width:100%;
+        margin-right:0%;
+        padding-right: 3%;
+        padding-left:3%;
+        margin-bottom: 0px;
+        border:solid 1px rgba(12, 181, 102, 0.76);
+        
+    }
+    
+    .top_search_bar{
+          padding-top:9px;
+          background-color:#0CB566;  
+    }
+
+    p1
+    {
+        font-size: 15px;
+         display: none;
+    }
+    #search_icon
+    {
+        display: none;
+    }
+    
+    
+  .data_col
+    {
+        margin-top:94px;
+        margin-left: -1px;
+        width:101%;
+    }
+    
+    .qna_box
+    {
+        width:100%;
+        
+    }
+    .qna_name
+    {
+        font-size: 15px;
+    }
+    .q_date
+    {
+        font-size:9px;
+        margin:0px;
+        float:right;
+        margin-right:10px;
+    }
+    
+    .q_subject
+    {
+        margin-top:15px;
+        margin-right:-150px;
+        padding-left: 20px;
+        font-size:10px;
+    }
+    
+    #rate_type
+    {
+        margin-right: 20px;
+    float: left;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-size: 10px;
+    font-style: italic;
+    margin-left: 9px;
+    margin-top: 15px;
+    }
+    
+    .ans_count {
+    color: #080635;
+    float: right;
+    
+    padding-left: 50px;
+    font-family: "segoe UI thin";
+    font-size: 10px;
+    font-style: italic;
+}
+    .ans_click
+    {
+        width: 100%;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    text-align: center;
+        
+        
+    }
+    
+    .a_image img
+    {
+        width:80%;
+        
+    }
+    
+    #rate
+    {
+        font-size:13px;
+        margin-bottom: 10px;
+    }
+    
+    .qna_body
+    {
+        font-size:15px;  
+    }
+    
+    .top_bar
+    {
+        
+        display: block;
+    }
+    
+    
+    
+    
+    p4 {
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    float: right;
+     line-height: 1.5; 
+    color:white;
+    font-family:"Segoe UI";
+    font-size:20px;
+     text-align: center;
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+
+}
+    
+    
+
+
+    #re_explore {
+        font-weight: 600;
+    font-family: "Segoe UI";
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+   
+   .p_rating, .t_rating ,.l_rating ,.m_rating
+    {
+        
+       
+    margin-right: 0%;
+    float: left;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-size: 10px;
+    margin-left: 0px;
+    margin-top: 10px; 
+        
+    }
+    
+    #giveown
+    {
+     font-size: 20px;
+     margin-top: 10px;
+        
+    }
+    #tagline
+    {
+        font-size: 10px;
+    }
+    
+    #text_place
+    {
+        width: 90%;
+        font-size:15px;
+    }
+    
+    #code_place
+{
+ 
+        width: 90%;
+        font-size:15px;
+
+}
+
+    .code_box
+{
+ 
+        width: 90%;
+        font-size:15px;
+
+}
+    
+}
+
+
+@media screen and (max-width:800px)
+{
+    .full_body
+    {
+        width: 100%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    #parent_top_bar 
+{
+    
+    transition: top 0.3s;
+    position: fixed;
+    display: block;
+    width: 100%;
+}
+    
+    .user_list
+    {
+        display: none;
+    }
+    
+    .top_search_bar,#search_bar{
+      
+        margin-top:0px;
+        
+        float: left;
+        margin-left: 0%;
+        width:100%;
+        margin-right:0%;
+        padding-right: 3%;
+        padding-left:3%;
+        margin-bottom: 0px;
+        border:solid 1px rgba(12, 181, 102, 0.76);
+        
+    }
+    
+    .top_search_bar{
+          padding-top:9px;
+          background-color:#0CB566;  
+    }
+
+    p1
+    {
+        font-size: 15px;
+         display: none;
+    }
+    #search_icon
+    {
+        display: none;
+    }
+    
+    
+  .data_col
+    {
+        margin-top:94px;
+        margin-left: -1px;
+        width:101%;
+    }
+    
+    .qna_box
+    {
+        width:100%;
+        
+    }
+    .qna_name
+    {
+        font-size: 15px;
+    }
+    .q_date
+    {
+        font-size:9px;
+        margin:0px;
+        float:right;
+        margin-right:5px;
+    }
+    
+    .q_subject
+    {
+        margin-right:10px;
+        padding-left: 20px;
+        font-size:10px;
+    }
+    
+    #rate_type
+    {
+        margin-right: 20px;
+    float: left;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-size: 10px;
+    font-style: italic;
+    margin-left: 9px;
+    margin-top: 10px;
+    }
+    
+    .ans_count {
+    color: #080635;
+    float: right;
+    
+    padding-left: 50px;
+    font-family: "segoe UI thin";
+    font-size: 10px;
+    font-style: italic;
+}
+    .ans_click
+    {
+        width: 100%;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    text-align: center;
+        
+        
+    }
+    
+    .a_image img
+    {
+        width:80%;
+        
+    }
+    
+    #rate
+    {
+        font-size:13px;
+        margin-bottom: 10px;
+    }
+    
+    .qna_body
+    {
+        font-size:15px;  
+    }
+    
+    .top_bar
+    {
+        
+        display: block;
+    }
+    
+    
+    
+    
+    p4 {
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    float: right;
+     line-height: 1.5; 
+    color:white;
+    font-family:"Segoe UI";
+    font-size:20px;
+     text-align: center;
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+
+}
+
+#re_explore {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+   
+   .p_rating, .t_rating ,.l_rating ,.m_rating
+    {
+        
+    margin-right: 60%;
+    float: left;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-size: 10px;
+    margin-left: 0px;
+    margin-top: 0px; 
+        
+    }
+    
+    #giveown
+    {
+     font-size: 20px;
+     margin-top: 10px;
+        
+    }
+    #tagline
+    {
+        font-size: 10px;
+    }
+    
+    #text_place
+    {
+        width: 90%;
+        font-size:15px;
+    }
+    
+    #code_place
+{
+ 
+        width: 90%;
+        font-size:15px;
+
+}
+
+    .code_box
+{
+ 
+        width: 90%;
+        font-size:15px;
+
+}
+    
+}
+
+
+
+
+
+
+@font-face 
+{
+    font-family: "Segoe UI";
+    font-weight: 200;
+    src: url("../fonts/segoeuil.ttf");
+}
+@font-face 
+{
+    font-family: "Segoe UI";
+    font-weight: 300;
+     src: url("../fonts/segoeuisl.ttf");
+}
+@font-face 
+{
+    font-family: "Segoe UI";
+    font-weight: 400;
+     src: url("../fonts/segoeui.ttf");
+}
+@font-face 
+{
+    font-family: "Segoe UI";
+    font-weight: 600;
+     src: url("../fonts/segoeuisb.ttf");
+}
+@font-face 
+{
+    font-family: "Segoe UI";
+    font-weight: 700;
+     src: url("../fonts/segoeuib.ttf");
+}
+@font-face 
+{
+    font-family: "Segoe UI";
+    font-style: italic;
+    font-weight: 400;
+      src: url("../fonts/segoeuii.ttf");
+}
+@font-face 
+{
+    font-family: "Segoe UI";
+    font-style: italic;
+    font-weight: 700;
+      src: url("../fonts/segoeuibi.ttf");
+}
+
+@font-face
+{
+    font-family: "verdana" ;
+    font-style: italic;
+    src : url("../fonts/verdanai.ttf");
+    
+}
+
+@font-face
+{
+    font-family: "verdana" ;
+    font-style: bold;
+    src : url("../fonts/verdanab.ttf");
+    
+}
+
+@font-face
+{
+    font-family: "verdana" ;
+    src : url("../fonts/verdana.ttf");
+    
+}
+
+@font-face{
+    font-family: "verdana" ;
+    font-style: bold italic;
+    src : url("../fonts/verdanaz.ttf");
+    
+}
+
+
+
+
+input,
+textarea,
+button,
+select,
+a 
+{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.certify_tag {
+    
+    padding-left: 30px;
+    background-color:   #49D07F;
+    color: white;
+
+}
+
+.user_tab {
+    
+      text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aqua;
+}
+
+.user_tab_name {
+     text-decoration: none;
+    font-family: "Segoe UI";
+    font-weight: 600;
+}
+
+.all_user {
+    height: 100%;
+    overflow: auto;
+}
+
+.a_image {
+    
+     -webkit-touch-callout:none;
+    pointer-events: none;
+      user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+title br {
+  display: none;  
+}
+
+
+
+
+
+
+#code_place {
+    font-family: "segoe UI";
+    width:60%;
+    margin:10px;
+    border-radius: 25px;
+    padding:20px;
+    text-align: left;
+    min-height:100px;
+    outline: none;
+    border: 2px solid #00940F;
+    box-shadow: 1px 0px 10px #dedede;
+    color:black;
+    
+}
+
+
+pre
+{
+ width: 80%;
+}
+
+.code_box {
+  font-size:15px;
+    //line-height: 15px;
+    width:80%;
+    padding: 10px;
+    border-radius: 25px;
+    padding:10px;
+    text-align: left;
+    height:auto;
+    outline: none;
+    border: 2px solid white ;
+    box-shadow: 1px 0px 10px #dedede;
+background: #52d1a0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #52d1a0 1550px, #0cb566 1500px); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    color:black;
+    overflow: auto;
+}
+

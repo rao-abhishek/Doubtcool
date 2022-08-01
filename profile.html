@@ -1,0 +1,172 @@
+ <?php
+
+session_start();
+//$_SESSION['message']='';
+//$_SESSION['error']=0;
+
+$_SESSION['cur_file']=basename($_SERVER['PHP_SELF']);
+
+include 'b_connect.php';
+//include 'crawler.php';
+
+if(isset($_SESSION['crawler'])!=1)
+{
+    header('location:crawler.php');
+}
+
+if(isset($_SESSION['sess_fix'])!=1)
+{
+    include 'b_fix_sessions.php';
+    
+}
+
+if(!isset($_SESSION['logged_in']))
+{
+  $_SESSION['fname'] = "log" ;
+    $_SESSION['lname'] = "in" ;
+    $_SESSION['email']="guest@doubtcool.com";
+    
+}
+
+
+
+
+
+/*if($fil_done!=1){
+$_SESSION['exam']="all";
+$_SESSION['subject']="all";
+$_SESSION['topic']="all";
+}*/
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="w3.css">
+   
+    <link rel="stylesheet" type="text/css" href="d_profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Explore | Doubtcool</title>
+    
+  
+  <link rel="stylesheet" href="d_jquery_ui.css">
+  <link rel="stylesheet" href="d_ui_custom.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"> </script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"> </script>
+    
+    
+    <script>
+  $( function() {
+    var availableTags = <?php echo $_SESSION['all_query']?>; 
+    $( "#search_bar" ).autocomplete({
+      source: function(request, response) {
+        var results = $.ui.autocomplete.filter(availableTags, request.term);
+        
+        response(results.slice(0, 10));
+      }
+    });
+  } );
+  </script>
+    
+</head>
+    
+<body>
+<div class="top_search_bar">
+    <p1 title="Doubtcool">Doubtcool</p1>
+        <div class="ui-widget">
+  <form action="crawler.php" method="get">
+        
+     <input id="search_bar" type="text" required name="s" placeholder=" &#8981;   What's your Question ?"/>
+    </form>
+</div>
+    </div>
+    
+    <div class="contribution">
+    <div class="follwers">
+      <div class="count">
+        
+        130
+      </div> 
+      <div class="c_title">
+        
+      Followers
+      </div>
+        
+    </div>
+    <div class="follwing">
+         <div class="count">
+        
+        100
+      </div> 
+      <div class="c_title">
+        following
+      
+      </div>
+        
+    </div>
+    
+    <div class="user_name">
+        
+        <img id="bio_pic" src="bio_pic.png" width=100px height=110px alt="bio_pic">
+        
+        <p style="text-align: center">bingo_name</p>
+     
+    </div>
+        
+    
+    <div class="questions">
+         <div class="count">
+        10
+        
+      </div> 
+      <div class="c_title">
+        Question
+      
+      </div>
+    
+        
+    </div>
+    <div class="answers">
+         <div class="count">
+        10
+        
+      </div> 
+      <div class="c_title">
+        Answers
+      
+      </div>
+    
+    </div>    
+    <div class="certified_answer">
+         <div class="count">
+        1
+        
+      </div> 
+      <div class="c_title">
+        
+      Certified Answer
+      </div>
+        
+        
+        
+    </div>
+        
+    
+    
+    </div>
+    <div class="data_col">
+    
+    
+    </div>
+    
+    
+
+    
+    
+</body>      
+</html>

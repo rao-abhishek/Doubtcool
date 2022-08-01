@@ -1,0 +1,401 @@
+
+p1 {
+    width:100%;
+    margin-top: 20px;
+     margin-left:65px;
+     margin-right: 10px;
+    float: left;
+     line-height: 1.5; 
+    color:#0CB566;
+    font-family:"Segoe UI";
+    font-size:30px;
+     text-align: left;
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    outline: none;
+   
+        
+}
+
+
+.page_content {
+    background-color:white;
+   
+}
+
+#heading {
+ 
+    margin-top:25px;
+   // margin-left: 35%;
+     text-align: center;
+    font-family: "Segoe UI";
+    font-size: 50px;
+    color:rgba(104, 104, 104, 0.85);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+   
+}
+
+#tag_line {
+  
+   
+margin-top:5px;
+   
+    text-align: center;
+    font-family: "Segoe UI";
+    font-weight: 500;
+    font-size: 15px;
+    color:rgba(104, 104, 104, 0.71);
+}
+
+
+
+.topic_line {
+    color:#080635;
+    font-family: "segoe UI";
+    font-style: italic;
+    text-align:center;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.47);
+    padding-bottom:6px;
+    padding-top:5px;
+    width:100%;
+    border-top: 1px solid rgba(112, 112, 112, 0.47);
+}
+
+.fil_container {
+    
+    
+    text-align: center;
+   
+    background-color: white;
+    width:90%;
+    padding-right: 20%;
+    padding-left: 5%;
+    
+    padding-top:20px;
+    padding-bottom:100px;
+    
+}
+
+#select_topic {
+  
+      margin-top: -5px;
+    padding-left: 20px;
+    padding-right:20px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    font-size:17px;
+    float:right;
+    background-color:transparent;
+    color:rgba(22, 118, 248, 0.85);
+    font-weight: bolder;
+}
+
+#text_place {
+  width: 60%;
+  text-align: center;
+  height:  200px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 25px;
+  background-color: white;
+  font-size: 16px;
+  box-shadow: 2px 2px 10px rgba(67, 66, 66, 0.35);
+  outline: none;
+}
+
+.text_box {
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+button {
+  border-radius: 100px;
+  padding: 6px 10px;
+  margin-top: 1px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+  user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */ 
+}
+
+#select_topic:hover{
+    
+    background-color: rgba(216, 209, 229, 0.42);
+   
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+select
+{
+    font-size: 15px;
+    
+}
+
+#submit {
+    font-weight: 700;
+    font-size:18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right:40px;
+    padding-left:40px;
+    font-family: "Segoe UI";
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.29);
+    color:  #0CB566;
+
+}
+
+#submit:active{
+    
+    box-shadow: none;
+}
+
+
+
+#submit:hover{
+    
+    color:white;
+    background-color:rgba(12, 181, 102, 0.87);
+    
+    
+}
+
+body {
+    text-align: center;
+    outline:none;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    font-weight: 200;
+    src: url("../fonts/segoeuil.ttf");
+}
+@font-face {
+    font-family: "Segoe UI";
+    font-weight: 300;
+     src: url("../fonts/segoeuisl.ttf");
+}
+@font-face {
+    font-family: "Segoe UI";
+    font-weight: 400;
+     src: url("../fonts/segoeui.ttf");
+}
+@font-face {
+    font-family: "Segoe UI";
+    font-weight: 600;
+     src: url("../fonts/segoeuisb.ttf");
+}
+@font-face {
+    font-family: "Segoe UI";
+    font-weight: 700;
+     src: url("../fonts/segoeuib.ttf");
+}
+@font-face {
+    font-family: "Segoe UI";
+    font-style: italic;
+    font-weight: 400;
+      src: url("../fonts/segoeuii.ttf");
+}
+@font-face {
+    font-family: "Segoe UI";
+    font-style: italic;
+    font-weight: 700;
+      src: url("../fonts/segoeuibi.ttf");
+}
+
+@font-face{
+    font-family: "verdana" ;
+    font-style: italic;
+    src : url("../fonts/verdanai.ttf");
+    
+}
+
+@font-face{
+    font-family: "verdana" ;
+    font-style: bold;
+    src : url("../fonts/verdanab.ttf");
+    
+}
+
+@font-face{
+    font-family: "verdana" ;
+    src : url("../fonts/verdana.ttf");
+    
+}
+
+@font-face{
+    font-family: "verdana" ;
+    font-style: bold italic;
+    src : url("../fonts/verdanaz.ttf");
+    
+}
+
+input,
+textarea,
+button,
+select,
+a 
+{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+
+
+.apply_filter {
+    padding: 6px 10px;
+    font-size: 17px;
+    font-weight: 600;
+    box-shadow: 1px 1px 3px rgba(80, 73, 73, 0.61);
+    margin-top: 20px;
+    background-color: white;
+    color: #1676f8;
+}
+
+.apply_filter:hover{
+    
+   color:white;
+   background-color: #1676f8;
+    
+    
+}
+
+.apply_filter:active
+{
+    
+ box-shadow: 0px 0px 0px;
+    
+    
+}
+
+
+@media screen and (max-width:812px)
+{
+    
+    p1
+    {
+        font-size:18px;
+        padding-top:7px;
+        padding-bottom: 7px;
+        padding-left: 8px;
+        text-align: left;
+        margin:0px;
+        width:100%;
+        color:white;
+        background-color: #0CB566;
+    }
+    
+    select
+    {
+        width:100%;
+    }
+    
+    .page_content
+    {
+        margin-top: 70px;
+        width:100%;
+    }
+    #heading
+    {
+        font-size:20px;
+        
+    }
+    #tag_line
+    {
+        font-size:12px;
+    }
+    
+    .topic_line
+    {
+        
+        padding-left:10px;
+        text-align: left;
+        align-content: center;
+        font-size:11px;
+    }
+    
+    #select_topic
+    {
+        font-size:12px;
+    }
+    
+    .text_box{
+        
+        margin: auto;
+        padding: 0px;
+        padding-top: 20px;
+        text-align: center;
+        width:100%;
+        padding-bottom: 40px;
+    }
+    
+    #text_place{
+        width:80%;
+        height: 500px;
+    }
+    #parent_filter {
+    width: 100%;
+}
+  
+  .fil_container {
+    text-align: center;
+    background-color: white;
+    width: 90%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+    
+}
+
+#parent_filter {
+    display: none;
+ 
+	transition-property: all;
+	transition-duration: .5s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1); 
+
+
+}
+
+
+
+
+
+

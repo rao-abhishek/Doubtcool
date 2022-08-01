@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="b_passwordupdate.css">
+</head>
+<body>
+    
+    <div class="top_head">
+    <a style="text-decoration: none;color:#0cb566" href="home.php">
+    Doubtcool
+    </a>
+        <div class="email_id">
+        abhishekrao3011@gmail.com
+        </div>
+    </div>
+    <div class="all_content">
+    <div class="main_box">
+    <div class="main_box_title">
+        <b>Set new password</b>
+        </div>
+        <br>
+        
+        
+
+     
+        <input class="input_field" type="password" placeholder="Enter new password">
+            <br>
+          <input class="input_field" type="password" placeholder="Confirm password">
+        <div class="error_msg">
+        *password doesn't match 
+            <br>
+        *create new password that isn't your current password
+        </div>
+            <br>
+        <div class="all_set">
+        All set
+        </div>
+        <button class="submit_button"><b>Submit</b></button>
+    
+    
+    </div>
+  
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+
+.qna_box {
+    width:8px;
+    border-radius: 0px;
+    background-color: white;
+   border: 0.3px solid rgba(112, 112, 112, 0.35);
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.17);
+}
+
+.qna_box_head {
+    background-color: white;
+   // border-bottom: 0.5px solid rgba(112, 112, 112, 0.55);
+//    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    
+}
+
+#qna_name {
+    margin-bottom: 5px;
+    margin-top:5px;
+    margin-left:10px;
+    font-family:"segoe UI";
+    font-size: 20px;
+    color:rgba(8, 6, 53, 0.86);
+    
+}
+
+.qna_date {
+    float:right;
+  //  margin-left: 150px;
+   // margin-top:-30px;
+    font-family: "segoe UI";
+    font-style:italic;
+  // text-align:left;
+}
+
+
+
+#qna_name {
+    
+}
+
+body {
+    position: relative;
+}

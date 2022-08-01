@@ -1,0 +1,28 @@
+
+.user_details {
+    color:red;
+}
+
+
+
+#log_out {
+    font-family:'Segoe UI';
+    color:rgba(24, 207, 235, 0.86);
+}
+
+#log_out:hover{
+    background-color:  rgba(24,207,235,0.86);
+    color: white;
+    
+}
+#log_out:active{
+    
+    box-shadow: none;
+}
+
+#error {
+    color:white;
+    background-color: rgba(255, 0, 0, 0.36);
+   
+    
+}
